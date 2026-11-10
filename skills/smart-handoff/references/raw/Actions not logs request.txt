@@ -1,0 +1,8 @@
+Let's do a proper scan of my task list for actual to-dos, I am a little overwhelmed.
+
+(The scan found 229 open tasks. About 25 needed action; the rest were watch items, sub-steps, sent or dropped messages, and tasks for paused work.)
+
+We may need to update the instructions so to-dos are more to-do-y than loggy.
+Although the log is important, I think smart-handoff can capture the log portion of it.
+
+Unsure on closing tasks whose date has passed - sometimes push backs happen.

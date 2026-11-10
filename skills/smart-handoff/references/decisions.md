@@ -73,3 +73,10 @@ Entry shape:
 - Chose: C - one private task source and project mapping, handoff writes agreed changes and pickup reads live state.
 - Why: Avoids account leakage and configuration drift, while explicit disabled or unmapped sources prevent unrelated task writes.
 - Result: Live connected-tool smoke test verified creation, completion with preserved evidence, duplicate reuse, and scoped pickup excluding completed and unrelated tasks.
+
+### 2026-11-10 | Task list holds actions, the handoff holds the log
+- Context: After a month of handoffs syncing tasks, one user's list had 229 open tasks and a triage found only about 25 needed them. Each handoff had added its next steps as tasks, including "watch the release" checks, per-sub-step tasks and draft messages that were later sent or dropped. Status notes had grown into appended, dated progress logs.
+- Options: (A) keep syncing every agreed next step and rely on periodic manual triage, (B) stop task sync entirely, (C) keep sync but add tasks only for real human-owned actions, put sub-steps in a parent checklist, keep one overwritten status line, and leave the log in the handoff.
+- Chose: C.
+- Why: The handoff already records progress and evidence, so copying them into the task list duplicates the log where it is hardest to read. (A) makes the list unusable between triages, and (B) loses the continuity pickup depends on. A passed date is not proof a task is dead, because plans get pushed back, so the agent asks instead of auto-closing.
+- Result: `wiki/handoff/tasks/task-source-sync.md` steps 4 and 5 and router step 7 now carry the rule, with updated incorrect and correct examples. Version 1.4.0.

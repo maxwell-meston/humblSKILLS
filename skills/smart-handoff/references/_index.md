@@ -47,6 +47,7 @@ Context -> categories. See `## Wiki` below for the concept enumeration.
 
 ## Raw Sources
 
+- [Actions not logs request.txt](raw/Actions not logs request.txt) - cited by: references/wiki/handoff/tasks/task-source-sync.md
 - [Nudge request.txt](raw/Nudge request.txt) - cited by: references/wiki/handoff/lifecycle/session-nudge.md
 - [Tandem request.txt](raw/Tandem request.txt) - cited by: references/wiki/handoff/capture/session-context.md, references/wiki/handoff/lifecycle/temp-vs-persist.md
 - [Task sync request.txt](raw/Task sync request.txt) - cited by: references/wiki/handoff/tasks/task-source-sync.md

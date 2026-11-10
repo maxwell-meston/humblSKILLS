@@ -43,6 +43,7 @@ single most expensive thing a handoff can carry.*
 
 *When task sync is configured, link created or reused tasks beside their next steps
 and completed tasks beside verified Done items.
+Most next steps need no task: only human-owned actions not already tracked get one.
 Record sync as complete, partial, unavailable, or disabled; do not claim unverified writes.*
 
 ## Environment & Commands

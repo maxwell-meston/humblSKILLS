@@ -50,3 +50,7 @@ Entry shape:
 [QUERY 2026-10-14] Added the optional session-nudge Stop hook with an idempotent installer for Claude Code and per-project Codex. Live: a fresh Claude Code session and a fresh Codex session each offered one handoff after editing; replaying five noisy real sessions cut 53 nudges to 9.
 
 [LINT 2026-10-14] 8 wiki, 3 raw. Hard: 0, Soft: 4. Regenerated _index.md.
+
+[QUERY 2026-11-10] Task sync now treats the task list as actions and the handoff as the log: tasks only for untracked human-owned next actions, sub-steps as a parent checklist, no watch tasks without a concrete check, one overwritten status line, and ask before closing a task whose date passed. Prompted by a 229-task list where about 25 needed action. Version 1.4.0.
+
+[LINT 2026-11-10] 8 wiki, 4 raw. Hard: 0, Soft: 4. Regenerated _index.md.

@@ -19,7 +19,7 @@ compatibility: Requires bash, git (optional but recommended), POSIX utilities (g
 allowed-tools: "Bash(bash:*) Bash(git:*) Bash(mkdir:*) Bash(humblskills:*) Read Write Edit Glob Grep"
 metadata:
   author: jjfantini
-  version: "1.3.0"
+  version: "1.4.0"
   category: meta
   tags: [handoff, context-transfer, session, agent-interop, codex, cursor, humblskill]
   platforms: [claude-code, cursor, codex]
@@ -112,7 +112,9 @@ _Full spec: `references/_brain.md`._
 7. **Sync the configured task source.** Follow
    `references/wiki/handoff/tasks/task-source-sync.md`.
    Reuse smart-pickup's external profile and starting-folder scope.
-   Add agreed human-owned next steps once, and complete matching tasks only
+   The task list holds actions and the handoff holds the log: add a task only
+   for an agreed next action a human owns that is not already tracked, keep
+   each task's status to one overwritten line, and complete matching tasks only
    when this session has verified completion evidence.
    Record task links and sync results in this handoff, never in the shared brain.
    Missing configuration or access leaves a usable handoff with sync explicitly unavailable.
